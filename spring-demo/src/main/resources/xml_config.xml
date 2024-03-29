@@ -3,7 +3,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd"
 >
-    <bean id="monkey" lazy-init="true" class="dev.luyee.Monkey" name="monk,houzi; hou">
-        <property name="name" value="孙悟空"/>
+    <bean id="userMapper" class="spring.bean.UserMapper" />
+    <bean id="userService" class="spring.bean.UserServiceImpl">
+        <property name="userMapper" ref="userMapper" />
     </bean>
 </beans>

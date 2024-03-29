@@ -1,9 +1,9 @@
-package dev.luyee;
+package spring.bean;
 
-public class Monkey {
+public class User {
     private String name;
 
-    public void setName(String name) {
+    public User(String name) {
         this.name = name;
     }
 
@@ -11,9 +11,13 @@ public class Monkey {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
-        return "Monkey{" +
+        return "User{" +
                 "name='" + name + '\'' +
                 '}';
     }
