@@ -8,7 +8,7 @@ import java.beans.PropertyEditor;
 import java.util.HashMap;
 import java.util.Map;
 
-@ComponentScan("spring.type_convert")
+@ComponentScan("spring.type_convert.property_editor")
 public class AppConfig {
 
     @Bean

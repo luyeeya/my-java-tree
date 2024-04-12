@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserService {
-    @Value("admin") // 调用类型转换器进行类型转换
+    @Value("admin") // Spring 自动调用类型转换器进行类型转换
     private User admin;
 
     public User getAdminUser() {
