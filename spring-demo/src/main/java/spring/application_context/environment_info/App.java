@@ -1,4 +1,4 @@
-package spring.application_context.environment;
+package spring.application_context.environment_info;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;

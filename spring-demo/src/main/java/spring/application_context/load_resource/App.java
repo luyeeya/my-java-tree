@@ -1,4 +1,4 @@
-package spring.application_context.resource_loader;
+package spring.application_context.load_resource;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.io.Resource;
@@ -6,7 +6,7 @@ import org.springframework.core.io.Resource;
 import java.io.IOException;
 
 /**
- * 展示 ApplicationContext 获取多种资源的能力（ResourcePatternResolver -> ResourceLoader）
+ * ApplicationContext 获取多种资源（ResourcePatternResolver -> ResourceLoader）
  */
 public class App {
     public static void main(String[] args) throws IOException {
