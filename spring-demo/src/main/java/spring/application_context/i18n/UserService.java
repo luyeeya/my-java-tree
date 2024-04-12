@@ -1,4 +1,4 @@
-package spring.ioc.i18n;
+package spring.application_context.i18n;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

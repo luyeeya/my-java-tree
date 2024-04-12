@@ -1,4 +1,4 @@
-package spring.ioc.resource;
+package spring.application_context.resource_loader;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.io.Resource;

@@ -1,11 +1,11 @@
-package spring.ioc.i18n;
+package spring.application_context.i18n;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.support.ResourceBundleMessageSource;
 
-@ComponentScan("spring.ioc.i18n")
+@ComponentScan("spring.application_context.i18n")
 public class AppConfig {
 
     @Bean

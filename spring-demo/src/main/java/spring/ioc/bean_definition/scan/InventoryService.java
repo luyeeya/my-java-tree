@@ -1,4 +1,4 @@
-package spring.ioc.beandefinition.scan;
+package spring.ioc.bean_definition.scan;
 
 import org.springframework.stereotype.Service;
 

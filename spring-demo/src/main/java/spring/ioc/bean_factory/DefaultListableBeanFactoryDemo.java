@@ -1,4 +1,4 @@
-package spring.ioc.beanfactory;
+package spring.ioc.bean_factory;
 
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;

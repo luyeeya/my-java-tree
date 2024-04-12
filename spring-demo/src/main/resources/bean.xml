@@ -3,5 +3,5 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd"
 >
-    <bean id="orderService" class="spring.ioc.beandefinition.OrderService"/>
+    <bean id="orderService" class="spring.ioc.bean_definition.OrderService"/>
 </beans>

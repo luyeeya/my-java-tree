@@ -1,4 +1,4 @@
-package spring.ioc.beandefinition;
+package spring.ioc.bean_definition;
 
 import java.util.Arrays;
 import java.util.List;

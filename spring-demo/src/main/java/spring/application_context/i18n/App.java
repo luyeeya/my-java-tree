@@ -1,4 +1,4 @@
-package spring.ioc.i18n;
+package spring.application_context.i18n;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
