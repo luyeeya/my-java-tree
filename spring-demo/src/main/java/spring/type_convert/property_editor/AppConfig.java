@@ -15,7 +15,7 @@ public class AppConfig {
     public CustomEditorConfigurer customEditorConfigurer() {
         CustomEditorConfigurer editorConfigurer = new CustomEditorConfigurer();
         Map<Class<?>, Class<? extends PropertyEditor>> propertyEditorMap = new HashMap<>();
-        // Spring 遇到 String 转换成 User 类的情况时，会使用 String2UserPropertyEditor 类
+        // Spring 遇到需要转换成 User 类的情况时，会尝试使用 String2UserPropertyEditor 进行类型转换
         propertyEditorMap.put(User.class, String2UserPropertyEditor.class);
         editorConfigurer.setCustomEditors(propertyEditorMap);
         return editorConfigurer;
