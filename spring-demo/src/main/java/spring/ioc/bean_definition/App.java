@@ -25,7 +25,7 @@ public class App {
         // 2.2
         XmlBeanDefinitionReader xmlBeanDefinitionReader = new XmlBeanDefinitionReader(context);
         xmlBeanDefinitionReader.loadBeanDefinitions("bean.xml");
-        System.out.println(context.getBean("orderService"));
+        System.out.println(context.getBean("userService"));
         // 2.3
         ClassPathBeanDefinitionScanner beanDefinitionScanner = new ClassPathBeanDefinitionScanner(context);
         beanDefinitionScanner.scan("spring.ioc.beandefinition.scan");
