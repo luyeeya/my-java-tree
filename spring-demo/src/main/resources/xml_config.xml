@@ -3,8 +3,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd"
 >
-    <bean id="userMapper" class="spring.bean.UserMapper" />
-    <bean id="userService" class="spring.bean.UserServiceImpl">
-        <property name="userMapper" ref="userMapper" />
+    <bean id="userMapper" class="spring.ioc.config.xml_config.UserMapper"/>
+    <bean id="userService" class="spring.ioc.config.xml_config.UserServiceImpl">
+        <property name="userMapper" ref="userMapper"/>
     </bean>
 </beans>

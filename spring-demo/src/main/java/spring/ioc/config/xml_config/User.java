@@ -1,4 +1,4 @@
-package spring.bean;
+package spring.ioc.config.xml_config;
 
 public class User {
     private String name;

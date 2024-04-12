@@ -1,12 +1,8 @@
-package spring.bean.annotated;
-
-import org.springframework.stereotype.Repository;
-import spring.bean.User;
+package spring.ioc.config.java_config;
 
 import java.util.Arrays;
 import java.util.List;
 
-@Repository
 public class UserMapper {
     public List<User> listUser() {
         User user1 = new User("Tom");

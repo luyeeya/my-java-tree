@@ -1,4 +1,4 @@
-package spring.bean;
+package spring.ioc.config.java_config;
 
 import java.util.List;
 

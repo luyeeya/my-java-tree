@@ -1,8 +1,11 @@
-package spring.bean;
+package spring.ioc.config.annotation_config;
+
+import org.springframework.stereotype.Repository;
 
 import java.util.Arrays;
 import java.util.List;
 
+@Repository
 public class UserMapper {
     public List<User> listUser() {
         User user1 = new User("Tom");
