@@ -1,4 +1,4 @@
-package classloader.custom;
+package custom_classloader;
 
 public class GreetingService {
     public void greet() {

@@ -1,10 +1,13 @@
-package classloader.custom;
+package custom_classloader;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+/**
+ * 自定义类加载器
+ */
 public class MyClassLoader extends ClassLoader {
     private final String classPath;
 
@@ -51,7 +54,7 @@ public class MyClassLoader extends ClassLoader {
 
     public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, InvocationTargetException {
         MyClassLoader myClassLoader = new MyClassLoader("D:/data");
-        Class<?> clazz = myClassLoader.loadClass("classloader.custom.GreetingService");
+        Class<?> clazz = myClassLoader.loadClass("custom_classloader.GreetingService");
         System.out.println("The classLoader is: " + clazz.getClassLoader());
         Object instance = clazz.newInstance();
         Method greetMethod = clazz.getDeclaredMethod("greet", (Class<?>[]) null);
